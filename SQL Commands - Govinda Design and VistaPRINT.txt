@@ -1,0 +1,63 @@
+Govinda Design & VistaPRINT - CSE1202 Project
+SQL Commands
+
+CREATE TABLE `Inventory`(
+`Item ID` int(10) NOT NULL,
+`Description` text DEFAULT NULL,
+`Price` decimal(9,2) NOT NULL,
+`Quantity` int(10) NOT NULL,
+PRIMARY KEY(`Item ID`) );
+
+CREATE TABLE `Customers`(
+`Contact #` varchar(20) DEFAULT NULL,
+`Note` text DEFAULT NULL,
+`Customer ID` int(10) NOT NULL,
+`First name` varchar(15) NOT NULL,
+`Last name` varchar(15) NOT NULL,
+PRIMARY KEY(`Customer ID`) );
+
+CREATE TABLE `Suppliers`(
+`Contact #` varchar(20) DEFAULT NULL,
+`Address` varchar(40) DEFAULT NULL,
+`Note` text DEFAULT NULL,
+`Email` varchar(40) DEFAULT NULL,
+`Name` varchar(15) NOT NULL,
+`Supplier ID` int(10) NOT NULL,
+PRIMARY KEY(`Supplier ID`) );
+
+
+
+
+
+
+
+ALTER TABLE {
+ALTER TABLE `Inventory` ADD…;
+ALTER TABLE `Inventory` CHANGE…;
+ALTER TABLE `Inventory` MODIFY…;
+ALTER TABLE `Inventory` DROP…;
+ALTER TABLE `Customers` ADD…;
+ALTER TABLE `Customers` CHANGE…;
+ALTER TABLE `Customers` MODIFY…;
+ALTER TABLE `Customers` DROP…;
+ALTER TABLE `Suppliers` ADD…;
+ALTER TABLE `Suppliers` CHANGE…;
+ALTER TABLE `Suppliers` MODIFY…;
+ALTER TABLE `Suppliers` DROP…;}
+
+UPDATE {
+UPDATE `Suppliers`…;
+UPDATE `Customers`…;
+UPDATE `Inventory`…;  }
+
+INSERT {
+INSERT into Inventory (`Item ID`, `Description`,`Price`,`Quantity`) VALUES (  );
+INSERT into Suppliers (`Contact #`,`Address`,`Note`, `Email`,`Name`,`Supplier ID`) VALUES (  );
+INSERT into Customers ( `Contact #`, `Note`,`Customer ID`,`First name`, `Last name`) VALUES (  ); }
+
+READ {
+SELECT * from Inventory;
+SELECT * from Customers;
+SELECT * from Suppliers;
+SELECT * from Inventory inner join Suppliers WHERE Suppliers.Supplier ID = Inventory.Item ID;
+SELECT * from Inventory inner join Customers WHERE Customers.Customer ID = Inventory.Item ID; }
