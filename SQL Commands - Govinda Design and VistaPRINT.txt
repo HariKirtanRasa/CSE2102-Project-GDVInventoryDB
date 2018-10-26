@@ -26,29 +26,24 @@ CREATE TABLE `Suppliers`(
 PRIMARY KEY(`Supplier ID`) );
 
 
-
-
-
-
-
 ALTER TABLE {
-ALTER TABLE `Inventory` ADD…;
-ALTER TABLE `Inventory` CHANGE…;
-ALTER TABLE `Inventory` MODIFY…;
-ALTER TABLE `Inventory` DROP…;
-ALTER TABLE `Customers` ADD…;
-ALTER TABLE `Customers` CHANGE…;
-ALTER TABLE `Customers` MODIFY…;
-ALTER TABLE `Customers` DROP…;
-ALTER TABLE `Suppliers` ADD…;
-ALTER TABLE `Suppliers` CHANGE…;
-ALTER TABLE `Suppliers` MODIFY…;
-ALTER TABLE `Suppliers` DROP…;}
+ALTER TABLE `Inventory` ADDâ€¦;
+ALTER TABLE `Inventory` CHANGEâ€¦;
+ALTER TABLE `Inventory` MODIFYâ€¦;
+ALTER TABLE `Inventory` DROPâ€¦;
+ALTER TABLE `Customers` ADDâ€¦;
+ALTER TABLE `Customers` CHANGEâ€¦;
+ALTER TABLE `Customers` MODIFYâ€¦;
+ALTER TABLE `Customers` DROPâ€¦;
+ALTER TABLE `Suppliers` ADDâ€¦;
+ALTER TABLE `Suppliers` CHANGEâ€¦;
+ALTER TABLE `Suppliers` MODIFYâ€¦;
+ALTER TABLE `Suppliers` DROPâ€¦;}
 
 UPDATE {
-UPDATE `Suppliers`…;
-UPDATE `Customers`…;
-UPDATE `Inventory`…;  }
+UPDATE `Suppliers`â€¦;
+UPDATE `Customers`â€¦;
+UPDATE `Inventory`â€¦;  }
 
 INSERT {
 INSERT into Inventory (`Item ID`, `Description`,`Price`,`Quantity`) VALUES (  );
