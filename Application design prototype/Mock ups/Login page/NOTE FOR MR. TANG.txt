@@ -4,5 +4,5 @@ In order for the login page to function:
 2. Ensure you have a table named 'users'
 3. Ensure that the table have attributes 'ID', 'username', 'password'
 4. Insert information into that table
-5. Go online and type localhost/project
+5. Go online and type localhost/login page //or whatever you downloaded our file as
 6. Enter information (username and password) inserted earlier.
